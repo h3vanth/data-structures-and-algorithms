@@ -92,6 +92,7 @@ class LinkedList {
 
     if (this.length === 1) {
       this.tail = this.head = null;
+      this.length--;
       return;
     }
 
